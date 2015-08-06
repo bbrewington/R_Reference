@@ -1,5 +1,5 @@
 # Function: setwd_windows()
-# Set Working Directory with a windows filepath
+# Set Working Directory with a windows filepath (with user input to the terminal)
 # Author: Brent Brewington, https://github.com/bbrewington
 
 # Thanks to Arun (http://stackoverflow.com/users/559784/arun) for his response at...
