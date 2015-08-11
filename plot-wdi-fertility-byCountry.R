@@ -2,6 +2,8 @@
 ## World Bank Development Indicators: Fertility Data (for a list of countries)
 
 library(dplyr)
+library(WDI)
+library(ggplot2)
 
 # List of countries to plot
 countries <- c("India", "China", "United States", "Russian Federation")
