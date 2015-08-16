@@ -5,3 +5,4 @@
 - **dplyr and tidyr (data wrangling)** - https://www.rstudio.com/wp-content/uploads/2015/02/data-wrangling-cheatsheet.pdf (rev date Jan 2015)
 - **shiny (interactive web apps)** - http://shiny.rstudio.com/images/shiny-cheatsheet.pdf (rev date June 2015)
 - **ggvis (interactive in R Studio)** http://ggvis.rstudio.com/
+- **knitr (literate statistical programming)** https://cran.r-project.org/web/packages/knitr/vignettes/knitr-refcard.pdf
