@@ -4,7 +4,8 @@ library(ggplot2)
 library(dplyr)
 library(treemap)
 
-setwd("C:/Users/Brent/Dropbox/")
+directory <- "C:/"
+setwd(directory)
 
 # Get vectors of all files & their sizes
 parentdir_filelist <- list.files(recursive=TRUE)
