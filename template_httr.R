@@ -1,3 +1,5 @@
+# from https://cran.r-project.org/web/packages/httr/vignettes/quickstart.html
+
 library(httr)
 
 url <- "http://httpbin.org/get"
