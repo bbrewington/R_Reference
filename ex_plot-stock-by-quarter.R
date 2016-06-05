@@ -1,5 +1,9 @@
 ## Get stock quote from quantmod, and plot quarterly opening values using ggplot
 
+library(quantmod)
+library(ggplot2)
+library(dplyr)
+
 splitindex <- function(x){
   #split index of CRI.quarterly (format: YYYY Q#)
   x.indexsplit <- strsplit(as.character(index(x)), split = " Q")
@@ -17,8 +21,6 @@ factor2character <- function(df){
 
 # get stock quote and extract quarterly data
 # reference on subsetting quantmod object: http://www.quantmod.com/examples/data/#subset
-library(quantmod)
-library(dplyr)
 symbol <- "CRI"
 # get stock quote if don't have it already
 if(!(symbol %in% ls())){
