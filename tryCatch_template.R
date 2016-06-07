@@ -1,5 +1,20 @@
-# Code source: http://stackoverflow.com/questions/12193779/how-to-write-trycatch-in-r
+# Simple Template
+myfunction <- function(argument1) {
+     out <- tryCatch({insert_expression_here}, 
+                    error = function(cond){
+                         print("custom error message")
+                         return(NA)
+                         }, 
+                    warning = function(cond){
+                         print("custom warning message")
+                         return(NA)
+                    }, 
+                    finally = {})
+}
 
+
+# More complicated template (example w/ reading a url using readlines)
+# Code source: http://stackoverflow.com/questions/12193779/how-to-write-trycatch-in-r
 readUrl <- function(url) {
      out <- tryCatch(
           {
