@@ -17,4 +17,7 @@ hierarchical.clustering.ward <- function(mydata, k = 5){
     
     # draw dendogram with red borders around the 5 clusters 
     rect.hclust(fit, k=5, border="red")
+    
+    # return a data frame with the groups added on
+    data.frame(mydata, groups)
 }
