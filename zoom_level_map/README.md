@@ -9,3 +9,5 @@ Call the function (plots the map in R and outputs to png file)
 ```R
 zoom_level_map(city = "Atlanta", state = "GA")
 ```
+
+![](R_Reference/blob/master/zoom_level_map/Atlanta.zoom.levels.png?raw=true)
