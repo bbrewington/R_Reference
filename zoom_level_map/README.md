@@ -1,4 +1,4 @@
-### Make a map of zoom levels overlaid on a City, State map
+### Show Google Maps API zoom levels overlaid on a City, State map
 
 Load the function "zoom_level_map"
 ```R
@@ -10,4 +10,4 @@ Call the function (plots the map in R and outputs to png file)
 zoom_level_map(city = "Atlanta", state = "GA")
 ```
 
-![](R_Reference/blob/master/zoom_level_map/Atlanta.zoom.levels.png?raw=true)
+![Atlanta Zoom Level Map](Atlanta.zoom.levels.png?raw=true)
