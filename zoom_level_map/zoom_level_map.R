@@ -16,7 +16,7 @@ zoom_level_map <- function(min.zoom = 10, max.zoom = 14, city, state, view.zoom 
      citymap <- get_map(paste(city, state, sep = ", "), 
                         zoom = view.zoom, maptype = "roadmap")
      
-     p <- ggmap(atlanta) +
+     p <- ggmap(citymap) +
           geom_rect(data = df, aes(xmin = ll.lon, ymin = ll.lat, 
                                    xmax = ur.lon, ymax = ur.lat, 
                                    color = factor(zoom)), 
