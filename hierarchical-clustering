@@ -13,10 +13,10 @@ hierarchical.clustering.ward <- function(mydata, k = 5){
     d <- dist(mydata, method = "euclidean") # distance matrix
     fit <- hclust(d, method="ward.D") 
     plot(fit) # display dendogram
-    groups <- cutree(fit, k=5) # cut tree into 5 clusters
+    groups <- cutree(fit, k = k) # cut tree into 5 clusters
     
     # draw dendogram with red borders around the 5 clusters 
-    rect.hclust(fit, k=5, border="red")
+    rect.hclust(fit, k = k, border="red")
     
     # return a data frame with the groups added on
     data.frame(mydata, groups)
