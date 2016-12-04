@@ -1,4 +1,5 @@
 library(ggplot2)
+library(dplyr)
 
 SW_corner_lat = 33 + 36/60 + 7.16/3600
 NE_corner_lat = 33 + 54/60 + 36.07/3600
